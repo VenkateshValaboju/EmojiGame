@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.NavBarContainer {
+  border-color: #ffffff30;
+  background-color: #ffffff33;
+  border-style: solid;
+}
+
+.bg {
+  background-image: linear-gradient(to bottom right, #9796f0, #fbc7d4);
+  min-height: 100vh;
+}
+.GameName {
+  color: #ffffff;
+}
+.NavBarBox1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.NavBarBox2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #ffffff;
+  font-size: 23px;
+}
+.NavBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.score_view {
+  margin-right: 25px;
+}
+
+li {
+  list-style: none;
+  margin: 5px;
+}
+
+.EmojiButton {
+  width: 180px;
+  height: 180px;
+  border-style: solid;
+  border-radius: 15px;
+  border-color: #ffffff30;
+  background-color: #ffffff33;
+}
+
+.Emoji_Image {
+  width: 80px;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.EmojisContainer {
+  width: 60vw;
+}
+
+.section2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-style: solid;
+  padding: 38px;
+  border-radius: 25px;
+  color: #ffffff;
+  border-color: #ffffff30;
+  background-color: #ffffff33;
+}
+
+.cardContainer {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card_img {
+  width: 280px;
+}
+
+.card-heading {
+  color: #ffffff;
+}
+
+.cardBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 25px;
+}
+
+.score {
+  color: #6a59ff;
+}
+
+.againButton {
+  background-color: #ffce27;
+  color: #3d3d3d;
+  border-style: none;
+  height: 50px;
+  width: 100px;
+  border-radius: 15px;
+}
